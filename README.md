@@ -25,15 +25,13 @@ This project is a simple Student Management API built using FastAPI. It allows f
 ```bash
   git clone https://github.com/venk404/Assignment-1.git
 ```
-2) Docker Componse for Postgres Installation:
+2) Docker Componse for Postgres Installation(DB):
 ```bash
-  cd DB/Schemas
   docker-compose up -d
 ```
 3) Execute the makeFile command (assuming make is installed on your system). This will initiate the servers and generate the student schema:
 
 ```bash
-  cd ..
   make all
 ```
 
@@ -44,13 +42,13 @@ __If you don't have make, then follow the steps below:-__
 ```bash
   python -m venv venv
   venv\Scripts\activate.ps1
-  venv\Scripts\python -m pip install --upgrade pip
+  pip install --upgrade pip
 ```
 
 3) Install the required packages and create schema:
 ```bash
-  venv\Scripts\pip install -r requirements.txt
-  venv\Scripts\python DB\Schemas\Create_Student.py
+  pip install -r requirements.txt
+  pyway migrate --config DB\Schemas\pyway.conf 
 ```
 
 4) Come outside the folder DB and Start the server
