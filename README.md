@@ -25,11 +25,18 @@ This project is a simple Student Management API built using FastAPI. It allows f
 ```bash
   git clone https://github.com/venk404/Assignment-1.git
 ```
-2) Docker Componse for Postgres Installation(DB):
+
+2) ## There are one .env example files and  pyway.conf file for migartion:
+
+- The .env example is located in the current directory.
+- The  pyway.conf is located in the DB directory for migartions.
+
+
+3) Docker Componse for Postgres Installation(DB):
 ```bash
   docker-compose up -d
 ```
-3) Execute the makeFile command (assuming make is installed on your system). This will initiate the servers and generate the student schema:
+4) Execute the makeFile command (assuming make is installed on your system). This will initiate the servers and generate the student schema:
 
 ```bash
   make all
