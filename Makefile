@@ -47,13 +47,13 @@ else
 	find . -type d -name "venv" -exec rm -rf {} +
 endif
 
-test:
+test:install
 ifeq ($(OS),Windows_NT)
-	$(VENV)\Scripts\python test/test.py
+	$(VENV)\Scripts\python ./test/test.py
 else:
-	$(VENV)\bin\python test/test.py
+	$(VENV)/bin/python ./test/test.py
 endif
 
 
-.PHONY: install run clean reinstall test
+.PHONY:Schema-creation install run clean test
 

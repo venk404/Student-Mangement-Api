@@ -19,6 +19,7 @@ This project is a simple Student Management API built using FastAPI. It allows f
 - PIP
 - Make
 - Docker & Docker Compose(For database)
+
 ## Installation
 1) Clone the repository:
 
@@ -42,9 +43,11 @@ This project is a simple Student Management API built using FastAPI. It allows f
   make all
 ```
 
-__If you don't have make, then follow the steps below:-__
+## Manual Execution Instructions
 
-2) Create a virtual environment and activate it:
+To run the application manually, follow these steps:
+
+2) Create and activate a virtual environment:
 
 ```bash
   python -m venv venv
