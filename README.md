@@ -24,7 +24,8 @@ This project is a simple Student Management API built using FastAPI. It allows f
 1) Clone the repository:
 
 ```bash
-  git clone https://github.com/venk404/Assignment-1.git
+  git clone https://github.com/venk404/Student-Mangement-Api.git
+  cd Student-Mangement-Api/
 ```
 
 2) ## There are one .env example files and  pyway.conf file for migartion:
@@ -67,12 +68,27 @@ To run the application manually, follow these steps:
   uvicorn main:app --reload
 ```
 
-
-
 ## Documentation(API Documentation)
 
 - Refer to the API documentation for the endpoints listed below
 ```bash
   http://127.0.0.1:8000/docs
 ```
+
+## Conclusions
+
+All expectations for **Assignment 1** have been successfully met:
+
+- A versioned **Student CRUD REST API** was implemented.
+- CRUD operations (add, get all, get by ID, update, delete) work as required.
+- **Best practices** followed: proper HTTP verbs, API versioning, and healthcheck endpoint.
+- **Configuration** handled via environment variables (no hard-coding).
+- **Database migrations** implemented for schema management.
+- **Logging** included with meaningful log levels.
+- **Unit tests** created for endpoints.
+- **Makefile** added for build/run/test workflow.
+- **Postman collection** provided for API testing.
+- Repository includes **README** and explicit **dependency management file**.
+
+This completes **Milestone 1** as per the assignment requirements ✅
 

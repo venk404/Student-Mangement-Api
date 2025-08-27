@@ -103,7 +103,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://0.0.0.0:8080/v2/UpdateStudent/?id=",
+					"raw": "http://0.0.0.0:8000/v2/UpdateStudent/?id=",
 					"protocol": "http",
 					"host": [
 						"0",
@@ -111,7 +111,7 @@
 						"0",
 						"0"
 					],
-					"port": "8080",
+					"port": "8000",
 					"path": [
 						"v2",
 						"UpdateStudent",
@@ -133,7 +133,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://0.0.0.0:8080/v2/DeleteStudent?id=",
+					"raw": "http://0.0.0.0:8000/v2/DeleteStudent?id=",
 					"protocol": "http",
 					"host": [
 						"0",
@@ -141,7 +141,7 @@
 						"0",
 						"0"
 					],
-					"port": "8080",
+					"port": "8000",
 					"path": [
 						"v2",
 						"DeleteStudent"

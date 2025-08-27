@@ -10,7 +10,7 @@ $(VENV)\Scripts\activate: requirements.txt
 	python -m venv $(VENV)
 
 ifeq ($(OS),Windows_NT)
-	$(VENV)\Scripts\activate.ps1
+	. .\$(VENV)\Scripts\Activate.ps1
 	$(VENV)\Scripts\python -m pip install --upgrade pip
 	$(VENV)\Scripts\pip install -r requirements.txt
 else
