@@ -77,18 +77,15 @@ To run the application manually, follow these steps:
 
 ## Conclusions
 
-All expectations for **Assignment 1** have been successfully met:
+All the expectations have been met for **Milestone 1**:
 
-- A versioned **Student CRUD REST API** was implemented.
-- CRUD operations (add, get all, get by ID, update, delete) work as required.
-- **Best practices** followed: proper HTTP verbs, API versioning, and healthcheck endpoint.
-- **Configuration** handled via environment variables (no hard-coding).
-- **Database migrations** implemented for schema management.
-- **Logging** included with meaningful log levels.
-- **Unit tests** created for endpoints.
-- **Makefile** added for build/run/test workflow.
-- **Postman collection** provided for API testing.
-- Repository includes **README** and explicit **dependency management file**.
-
-This completes **Milestone 1** as per the assignment requirements ✅
-
+- ✅ A versioned **Student CRUD REST API** was implemented.  
+- ✅ CRUD operations (add, get all, get by ID, update, delete) work as required.  
+- ✅ **Best practices** followed: proper HTTP verbs, API versioning, and healthcheck endpoint.  
+- ✅ **Configuration** handled via environment variables (no hard-coding).  
+- ✅ **Database migrations** implemented for schema management.  
+- ✅ **Logging** included with meaningful log levels.  
+- ✅ **Unit tests** created for endpoints.  
+- ✅ **Makefile** added for build/run/test workflow.  
+- ✅ **Postman collection** provided for API testing.  
+- ✅ Repository includes **README** and explicit **dependency management file**.  
